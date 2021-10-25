@@ -1,0 +1,35 @@
+.featuredInfo {
+  display: flex;
+  
+
+  justify-content: space-between;
+  margin: 50px 20px 35px 20px;
+
+  .featuredInfoItem{
+      flex: 1;
+      padding: 30px;
+      margin: 0 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      -webkit-box-shadow: 0px 0px 39px -8px rgba(34, 60, 80, 0.4);
+      box-shadow: 0px 0px 39px -8px rgba(34, 60, 80, 0.4);
+      .title{
+          font-size: 26px;
+          
+          margin-bottom: 15px;
+      }
+      .center {
+          font-size: 35px;
+          font-weight: 700;
+          margin-bottom: 20px;
+        span{
+            margin-left: 15px;
+            font-size: 20px;
+            font-weight: 400;
+        }
+      }
+      .bottom{
+          color: gray;
+      }
+  }
+}

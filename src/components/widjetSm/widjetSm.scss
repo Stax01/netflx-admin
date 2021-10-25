@@ -1,0 +1,54 @@
+.widjetSm {
+  flex: 2;
+  margin: 30px 20px 20px 40px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 39px -8px rgba(34, 60, 80, 0.4);
+  box-shadow: 0px 0px 39px -8px rgba(34, 60, 80, 0.4);
+  border-radius: 5px;
+  h3 {
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .list {
+    list-style: none;
+    padding: 0;
+    .itemSm {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 12px;
+      width: 100%;
+      img {
+        height: 45px;
+        width: 45px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+      .userInfo {
+        .username {
+          font-size: 18px;
+          font-weight: 700;
+          margin-bottom: 5px;
+        }
+        span {
+          font-size: 15px;
+        }
+      }
+      button {
+        position: relative;
+        background-color: rgb(251, 251, 255);
+        border: none;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        color: #555;
+        .icon {
+          margin-right: 5px;
+          padding: 5px;
+        }
+      }
+    }
+  }
+}
